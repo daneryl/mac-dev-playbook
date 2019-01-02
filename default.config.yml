@@ -17,32 +17,20 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  # - autoconf
-  # - bash-completion
-  # - doxygen
-  # - gettext
-  # - gifsicle
-  # - git
-  # - go
-  # - gpg
-  # - hub
-  # - httpie
-  # - iperf
-  # - libevent
-  # - sqlite
-  # - mcrypt
-  # - nmap
-  # - node
-  # - nvm
-  # - php
-  # - ssh-copy-id
-  # - cowsay
-  # - readline
-  # - openssl
-  # - pv
-  # - wget
-  # - wrk
+  - cmake
+  - fzf
+  - git
+  - jq
+  - mongodb
+  - mysql
+  - potrace
+  - python
+  - ruby
+  - the_silver_searcher
+  - tmate
+  - watchman
+  - yarn
+  - zsh
 
 homebrew_taps:
   - homebrew/core
