@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - ruby
   - the_silver_searcher
   - tmate
+  - neovim
   - watchman
   - yarn
   - zsh
@@ -72,4 +73,5 @@ pip_packages: []
   #   version: "0.16.3" # default: N/A
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
-post_provision_tasks: []
+post_provision_tasks: 
+  - "~/workspace/dotfiles/install.sh"
