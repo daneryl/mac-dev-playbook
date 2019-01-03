@@ -6,15 +6,14 @@ configure_sudoers: yes
 configure_terminal: yes
 configure_osx: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/daneryl/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/workspace/dotfiles
 dotfiles_files:
-  - .bash_profile
+  - .zshrc
   - .gitignore
   - .inputrc
   - .osx
-  - .vimrc
 
 homebrew_installed_packages:
   - cmake
