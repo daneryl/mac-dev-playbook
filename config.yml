@@ -44,6 +44,7 @@ homebrew_cask_apps:
   - slack
   - mattermost
   - alacritty
+  - spectacle
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
