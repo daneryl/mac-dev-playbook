@@ -11,9 +11,7 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/workspace/dotfiles
 dotfiles_files:
   - .zshrc
-  - .gitignore
-  - .inputrc
-  - .osx
+  - .tmux.conf
 
 homebrew_installed_packages:
   - cmake
