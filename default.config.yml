@@ -22,7 +22,6 @@ homebrew_installed_packages:
   - jq
   - mongodb
   - mysql
-  - potrace
   - python
   - ruby
   - the_silver_searcher
@@ -31,6 +30,7 @@ homebrew_installed_packages:
   - watchman
   - yarn
   - zsh
+  - tmux
 
 homebrew_taps:
   - homebrew/core
@@ -44,6 +44,7 @@ homebrew_cask_apps:
   - google-chrome
   - slack
   - mattermost
+  - alacritty
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
