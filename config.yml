@@ -12,6 +12,7 @@ dotfiles_repo_local_destination: ~/workspace/dotfiles
 dotfiles_files:
   - .zshrc
   - .tmux.conf
+  - .prettierrc.js
   - .config
 
 homebrew_installed_packages:
